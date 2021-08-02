@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+html{
+	scroll-behavior: smooth;
+}
+.navigator{
+	width: 100%;
+	height: 50px;
+	background-color: #11B6C6;
+	display: flex;
+}
+.navigator .moon1{
+	font-size: 23px;
+	cursor: pointer;
+}
+.navigator .moon1.active{
+	display: none;
+}
+.sun{
+	font-size: 26px;
+	cursor: pointer;
+}
+.sun.active{
+	display: none;
+}
+.english{
+	cursor: pointer;
+}
+.english.active{
+	display: none;
+}
+.spanish{
+	cursor: pointer;
+}
+.spanish.active{
+	display: none;
+}
+.selectForm{
+	margin-top: 20px;
+}
+.p_title:hover{
+	animation-duration: 2s;
+	animation: bounce;
+}
+.p_simpleForm{
+	cursor: pointer;
+}
+.p_simpleForm:hover{
+ 	color: lightslategray;
+}
+.p_formFull{
+	cursor: pointer;
+}
+.p_formFull:hover{
+	color: lightslategray;
+}
+.span-active{
+	cursor: pointer;
+}
+.span-active:hover{
+	color: lightgray;
+}
+.form-type-example{
+	margin-top: 20px;
+	width: 120px;
+	padding: 10px;
+}
+strong{
+	font-size: 12px;
+}
+.form-type-example .inputTitle{
+	outline: 0;
+	border-radius: 10px;
+	padding: 2px;
+	text-align: center;
+}
+.form-type-example .simple-text-area{
+	outline: 0;
+	border-radius: 10px;
+	padding: 2px;
+	text-align: center;
+}
+.form-type-example .inputTags{
+	outline: 0;
+	border-radius: 10px;
+	padding: 2px;
+	text-align: center;	
+}
+.form-type-example .inputType{
+	outline: 0;
+	border-radius: 10px;
+	padding: 2px;
+	text-align: center;	
+}
+.form-type-example .textArea{
+	outline: 0;
+	border-radius: 10px;
+	padding: 2px;
+	text-align: center;
+}
+.strong{
+	position: relative;
+	padding-left: 400px;
+}
